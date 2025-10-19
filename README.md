@@ -1,7 +1,5 @@
 # Maternal AI Triage System
 
-## Complete LAMP Stack Application for Maternal Healthcare
-
 ### System Requirements
 - PHP 7.4 or higher
 - MySQL 5.7 or higher
@@ -15,8 +13,8 @@
 
 2. **Create Database**
    - Open phpMyAdmin or MySQL command line
-   - Create a new database: `maternal_triage`
-   - Import the `database.sql` file
+   - Create a new database: `u559191231_medsavedb`
+   - Import the `u559191231_medsavedb.sql` file
 
 3. **Configure Database Connection**
    - Open `config.php`
@@ -134,19 +132,6 @@ Role: Administrator
 6. **Emergency Alerts** sent for high-risk cases
 7. **Provide Feedback** to improve AI accuracy
 
-### Troubleshooting
-
-**Database Connection Error**
-- Verify database credentials in config.php
-- Ensure MySQL service is running
-
-**Cannot Login**
-- Check if database.sql was imported correctly
-- Default user should be created automatically
-
-**WhatsApp Alerts Not Sending**
-- This is demo mode - check error logs for simulated messages
-- Implement actual WhatsApp Business API for production
 
 ### Production Deployment Checklist
 - [ ] Change default admin password
@@ -158,12 +143,13 @@ Role: Administrator
 - [ ] Configure error logging
 - [ ] Update contact information for health centers
 
-### Support & Documentation
-For support or questions, Email: ssenogab999@gmail.com.
+### Support
+For support or inquiries, Email: ssenogab999@gmail.com.
 
 ### License
-Built for Uganda
+Free
 
 ### Credits
-Developed for Maternal Healthcare - Medsave Team
+Developed by Medsave Team - STI Industry 4.o+ Hackthon
+
 
