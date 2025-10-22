@@ -3,7 +3,7 @@ session_start();
 date_default_timezone_set('Africa/Kampala');
 
 // Database Configuration
-define('DB_HOST', 'localhost');
+define('DB_HOST', '10.100.100.24');
 define('DB_USER', 'u559191231_medsaveus');
 define('DB_PASS', 'Medsave@2025');
 define('DB_NAME', 'u559191231_medsavedb');
@@ -20,5 +20,6 @@ if (!$conn) {
 
 mysqli_set_charset($conn, "utf8mb4");
 ?>
+
 
 
