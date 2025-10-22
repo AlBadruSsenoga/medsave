@@ -3,13 +3,13 @@ session_start();
 date_default_timezone_set('Africa/Kampala');
 
 // Database Configuration
-define('DB_HOST', 'localhost');
+define('DB_HOST', '10.100.100.24');
 define('DB_USER', 'u559191231_medsaveus');
 define('DB_PASS', 'Medsave@2025');
 define('DB_NAME', 'u559191231_medsavedb');
 
 // API Configuration
-define('ANTHROPIC_API_KEY', 'your-api-key-here'); // Add your Claude API key
+define('ANTHROPIC_API_KEY', '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'); // Add your Claude API key
 
 // Connect to database
 $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
@@ -20,3 +20,4 @@ if (!$conn) {
 
 mysqli_set_charset($conn, "utf8mb4");
 ?>
+
